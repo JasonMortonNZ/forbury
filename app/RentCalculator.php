@@ -16,7 +16,12 @@ class RentCalculator
 
         $sumOfTiers = $rentForTierOne + $rentForTierTwo + $rentForTierThree;
 
-        return number_format($sumOfTiers, 2, '.', '');
+        return [
+            'tier 1' => $rentForTierOne,
+            'tier 2' => $rentForTierTwo,
+            'tier 3' => $rentForTierThree,
+            'total' => number_format($sumOfTiers, 2, '.', '')
+        ];
     }
 
     protected function calculateTierOne($baseRent)
@@ -26,7 +31,7 @@ class RentCalculator
 
         $sales = abs($start-$finish);
 
-        return $sales * self::RENT_TIER_1_PERCENTAGE;
+        return number_format($sales * self::RENT_TIER_1_PERCENTAGE, 2, '.', '');
     }
 
     protected function calculateTierTwo($baseRent)
@@ -36,15 +41,15 @@ class RentCalculator
 
         $sales = abs($start-$finish);
 
-        return $sales * self::RENT_TIER_2_PERCENTAGE;
+        return number_format($sales * self::RENT_TIER_2_PERCENTAGE, 2, '.', '');
     }
 
     protected function calculateTierThree($baseRent, $annualSales)
     {
         $start = $baseRent / self::RENT_TIER_3_PERCENTAGE;
 
-        $tierOneIncome = abs($start-$annualSales);
+        $sales = abs($start-$annualSales);
 
-        return $tierOneIncome * (self::RENT_TIER_3_PERCENTAGE / 100);
+        return number_format($sales * (self::RENT_TIER_3_PERCENTAGE / 100), 2, '.', '');
     }
 }

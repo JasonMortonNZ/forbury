@@ -61,8 +61,11 @@
                 <thead>
                     <tr>
                         <th>Year</th>
-                        <th>Percentage rent</th>
                         <th>Annual sales</th>
+                        <th>Tier 1</th>
+                        <th>Tier 2</th>
+                        <th>Tier 3</th>
+                        <th>Total percentage rent</th>
                     </tr>
                 </thead>
                 <tbody></tbody>

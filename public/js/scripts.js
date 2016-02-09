@@ -9,7 +9,16 @@ $(document).ready(function () {
         $('#resultsTable tr').slice(1).remove();
 
         $.each(data, function(index, obj) {
-            $('#resultsTable tr:last').after("<tr><td>#"+index+"</td><td>$"+obj.rent+"</td><td>"+obj.sales+"</td></tr>")
+            $('#resultsTable tr:last').after([
+                "<tr>",
+                "<td>#"+index+"</td>",
+                "<td>$"+obj.sales+"</td>",
+                "<td>$"+obj.rents['tier 1']+"</td>",
+                "<td>$"+obj.rents['tier 2']+"</td>",
+                "<td>$"+obj.rents['tier 3']+"</td>",
+                "<td>$"+obj.rents['total']+"</td>",
+                "</tr>"
+            ].join())
         });
     };
     
@@ -19,7 +28,7 @@ $(document).ready(function () {
 
         $.each(data, function(index, obj) {
             labels.push("Year "+index);
-            rentDataset.push(obj.rent);
+            rentDataset.push(obj.rents['total']);
         });
 
         var dataset = { labels: labels, datasets: [{

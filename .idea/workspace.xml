@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0dad46a-03b5-4307-a121-12974785cb7b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ForburyController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ForburyController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/RentCalculator.php" afterPath="$PROJECT_DIR$/app/RentCalculator.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/scripts.js" afterPath="$PROJECT_DIR$/public/js/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/foot.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/foot.blade.php" />
     </list>
     <ignored path="Forbury.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,21 +30,64 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2142856">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForburyController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForburyController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ForburyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3615024">
-              <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+            <state vertical-scroll-proportion="-9.964286">
+              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
               <folding>
                 <element signature="e#316#424#0#PHP" expanded="true" />
                 <element signature="e#519#584#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.714286">
+              <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#223#746#0" expanded="true" />
+                <element signature="e#317#738#0" expanded="true" />
+                <element signature="e#1639#2067#0" expanded="true" />
+                <element signature="e#1955#2059#0" expanded="true" />
+                <marker date="1454993013044" expanded="true" signature="449:468" placeholder="..." />
+                <marker date="1454993013044" expanded="true" signature="492:521" placeholder="..." />
+                <marker date="1454993013044" expanded="true" signature="523:682" placeholder="..." />
+                <marker date="1454993013044" expanded="true" signature="682:700" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RentCalculator.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/RentCalculator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7652582">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+              <folding>
+                <element signature="e#773#1071#0#PHP" expanded="true" />
+                <element signature="e#1077#1375#0#PHP" expanded="true" />
+                <element signature="e#1381#1648#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,10 +107,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/FooController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/foot.blade.php" />
-        <option value="$PROJECT_DIR$/app/RentCalculator.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ForburyController.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/public/js/scripts.js" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ForburyController.php" />
+        <option value="$PROJECT_DIR$/app/RentCalculator.php" />
       </list>
     </option>
   </component>
@@ -84,9 +125,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -219,8 +260,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -284,14 +325,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ForburyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#316#424#0#PHP" expanded="true" />
+            <element signature="e#519#584#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/RentCalculator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding>
-            <element signature="e#613#884#0#PHP" expanded="true" />
-            <element signature="e#890#1161#0#PHP" expanded="true" />
-            <element signature="e#1167#1423#0#PHP" expanded="true" />
+            <element signature="e#773#1071#0#PHP" expanded="true" />
+            <element signature="e#1077#1375#0#PHP" expanded="true" />
+            <element signature="e#1381#1648#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -301,10 +361,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#502#1293#0" expanded="true" />
-            <element signature="e#602#693#0" expanded="true" />
-            <element signature="e#1340#1768#0" expanded="true" />
-            <element signature="e#1656#1760#0" expanded="true" />
+            <element signature="e#223#746#0" expanded="true" />
+            <element signature="e#317#738#0" expanded="true" />
+            <element signature="e#1639#2067#0" expanded="true" />
+            <element signature="e#1955#2059#0" expanded="true" />
+            <marker date="1454993013044" expanded="true" signature="449:468" placeholder="..." />
+            <marker date="1454993013044" expanded="true" signature="492:521" placeholder="..." />
+            <marker date="1454993013044" expanded="true" signature="523:682" placeholder="..." />
+            <marker date="1454993013044" expanded="true" signature="682:700" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -321,7 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -361,7 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -373,42 +435,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.642858">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49475262">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-          <folding>
-            <element signature="e#502#1293#0" expanded="true" />
-            <element signature="e#602#693#0" expanded="true" />
-            <element signature="e#1340#1768#0" expanded="true" />
-            <element signature="e#1656#1760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/RentCalculator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4225352">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#613#884#0#PHP" expanded="true" />
-            <element signature="e#890#1161#0#PHP" expanded="true" />
-            <element signature="e#1167#1423#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2142856">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
           <folding />
         </state>
@@ -416,11 +445,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ForburyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3615024">
-          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        <state vertical-scroll-proportion="-9.964286">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding>
             <element signature="e#316#424#0#PHP" expanded="true" />
             <element signature="e#519#584#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.714286">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#223#746#0" expanded="true" />
+            <element signature="e#317#738#0" expanded="true" />
+            <element signature="e#1639#2067#0" expanded="true" />
+            <element signature="e#1955#2059#0" expanded="true" />
+            <marker date="1454993013044" expanded="true" signature="449:468" placeholder="..." />
+            <marker date="1454993013044" expanded="true" signature="492:521" placeholder="..." />
+            <marker date="1454993013044" expanded="true" signature="523:682" placeholder="..." />
+            <marker date="1454993013044" expanded="true" signature="682:700" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/RentCalculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7652582">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#773#1071#0#PHP" expanded="true" />
+            <element signature="e#1077#1375#0#PHP" expanded="true" />
+            <element signature="e#1381#1648#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

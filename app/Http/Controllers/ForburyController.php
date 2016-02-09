@@ -49,7 +49,7 @@ class ForburyController extends Controller
 
         for ($i = 1; $i <= 10; $i++) {
             // Save percentage rent amount
-            $results[$i]['rent'] = $this->calculator->calculateRent($rent, $annualSales);
+            $results[$i]['rents'] = $this->calculator->calculateRent($rent, $annualSales);
             $results[$i]['sales'] = number_format($annualSales, 2);
 
             // Increase sales by 2.5% per year
