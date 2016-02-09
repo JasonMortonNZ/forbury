@@ -36,9 +36,29 @@ class ForburyController extends Controller
      * Calculate rent
      *
      * @param Request $request
+     *
+     * @return array
      */
     public function calculate(Request $request)
     {
+        $rent = $request->get('baseRent');
+        $rentAfterFiveYears = $request->get('rentAfterFiveYears');
+        $annualSales = $request->get('annualSales');
 
+        $results = [];
+
+        for ($i = 1; $i <= 10; $i++) {
+            // Save percentage rent amount
+            $results[$i]['rent'] = $this->calculator->calculateRent($rent, $annualSales);
+            $results[$i]['sales'] = number_format($annualSales, 2);
+
+            // Increase sales by 2.5% per year
+            $annualSales = $annualSales * 1.025;
+
+            // Update rent after 5 years
+            if ($i == 5) $rent = $rentAfterFiveYears;
+        }
+
+        return $results;
     }
 }
